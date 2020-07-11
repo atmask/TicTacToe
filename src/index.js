@@ -7,7 +7,7 @@ import './index.css';
       return (
         <button 
         className="square" 
-        onClick={props.onClick()}
+        onClick={() => {props.onClick()}}
         >
           {props.value}
         </button>
@@ -35,6 +35,10 @@ import './index.css';
 
     handleClick(i) {
       const squares = this.state.squares.slice();
+      /* Game is won or spot taken already */
+      if(calculateWinner(squares) || squares[i]) {
+        return;
+      }
       squares[i] = (this.state.xIsNext ? "X" : "O");
       this.setState({
         squares: squares,
