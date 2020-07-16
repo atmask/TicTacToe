@@ -1,3 +1,5 @@
+This project is the beginning of my journey learning React! It is now deployed via Azure at:
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
