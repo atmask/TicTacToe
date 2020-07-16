@@ -1,4 +1,4 @@
-This project is the beginning of my journey learning React! 
+This project is the beginning of my journey learning React! \ 
 It is now deployed via Azure at: https://icy-dune-06088b010.azurestaticapps.net/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
